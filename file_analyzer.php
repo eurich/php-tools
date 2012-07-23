@@ -74,13 +74,13 @@ class template
 	<head>
 		<title>File Analyzer</title>
 		<style type="text/css">
-			body { background-color: #cbd9e7; margin: 0px; padding: 0px;}
-			#header { background-color: #809ab3; padding: 22px 4% 12px 4%; color: #fff; text-shadow: 0 0 8px #333; font-size: xx-large;	border-bottom: 1px solid #fff; height: 40px;}
-			#main { padding: 20px 30px;	background-color: #fff;	border-radius: 5px;	margin: 7px; border: 1px solid #abadb3;}
-			body, td { color: #000;	font-size: small; font-family: arial;}
-			h1 { margin: 0; padding: 0;	font-size: 24pt; }
-			h2 { margin: 0;	position: relative;	top: 15px; border-radius: 7px; left: 10px;	padding: 5px; display: inline; background-color: #fff; font-size: 10pt;	color: #809ab3;	font-weight: bold;}
-			.content { border-radius: 3px;	background-color: #eee;	color: #444; margin: 1ex 0;	padding: 1.2ex;	border: 1px solid #abadb3;}
+			body {background-color: #cbd9e7; margin: 0px; padding: 0px;}
+			#header {background-color: #809ab3; padding: 22px 4% 12px 4%; color: #fff; text-shadow: 0 0 8px #333; font-size: xx-large;	border-bottom: 1px solid #fff; height: 40px;}
+			#main {padding: 20px 30px;	background-color: #fff;	border-radius: 5px;	margin: 7px; border: 1px solid #abadb3;}
+			body, td {color: #000;	font-size: small; font-family: arial;}
+			h1 {margin: 0; padding: 0;	font-size: 24pt;}
+			h2 {margin: 0;	position: relative;	top: 15px; border-radius: 7px; left: 10px;	padding: 5px; display: inline; background-color: #fff; font-size: 10pt;	color: #809ab3;	font-weight: bold;}
+			.content {border-radius: 3px;	background-color: #eee;	color: #444; margin: 1ex 0;	padding: 1.2ex;	border: 1px solid #abadb3;}
 		</style>
 	</head>
 	<body>
