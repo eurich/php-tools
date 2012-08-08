@@ -1,4 +1,4 @@
 php-tools
 =========
 
-some handy php-tools ..
+some small php-tools ..
