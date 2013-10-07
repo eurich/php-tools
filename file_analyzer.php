@@ -31,7 +31,6 @@ class Worker
 	{
 		$this->files = new RecursiveIteratorIterator(new RecursiveDirectoryIterator(dirname(__FILE__)));
 		$this->template = new template();
-		$_GET['step'] = isset($_GET['step']) ? (int) @$_GET['step'] : 0;
 		$this->template->header();
 	}
 
@@ -103,7 +102,7 @@ class template
 		echo '
 		<h2>Welcome!</h2>
 		<div class="content">
-			<form action="', $_SERVER['PHP_SELF'], '?step=1', isset($_REQUEST['debug']) ? '&amp;debug=' . $_REQUEST['debug'] : '', '" method="post">
+			<form action="', $_SERVER['PHP_SELF'], '?step=1" method="post">
 				<div>This tool is used to check your source files containing the UTF-8 Byte Order Mark (BOM).<br /><br/ >It can be used to diagnose and <b>repair</b> files. Simply tick the "Start scan" button and wait a few seconds in order to see the result.</div>
 				<div style="margin-top: 10px"><input id="submit_button" name="submit_button" type="submit" value="Start scan" class="submit" /></div>
 			</form>
